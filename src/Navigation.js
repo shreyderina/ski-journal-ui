@@ -10,7 +10,7 @@ class NavBar extends Component {
           <ul className="right hide-on-med-and-down">
             <li><Link to="/">Мои тренеровки</Link></li>
             <li><a href="#">Мои отчёты</a></li>
-            <li><a href="#">Добавить</a></li>
+            <li><Link to="/add">Добавить</Link></li>
           </ul>
         </div>
       </nav>
